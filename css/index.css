@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    text-align: center;
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+header#Quiz{
+    background-color: #FDFF86;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+header#Dhelmise1{
+    background-color: #98E7FF;
+    padding: 20px;
+}
+header#Eternatus1{
+    background-color: #FF8E85;
+    padding: 20px;
+}
+header#Steven1{
+    background-color: #D8B8C5;
+    padding: 20px; 
+}
+header#Diantha1{
+    background-color: rgb(252, 130, 179);
+    padding: 20px; 
+}
+header#Palkia1{
+    background-color: rgb(255, 142, 227);
+    padding: 20px; 
+}
+header#TrioDoLago1{
+    background-color: rgb(151, 231, 255);
+    padding: 20px;
+}
+header#TeamGalatic1{
+    background-color: rgb(194, 165, 165);
+    padding: 20px;
+}
+header#LigaKalos1{
+    background-color: rgb(109, 140, 196);
+    padding: 20px;
+}
+header#Pseudo1{
+    background-color: rgb(119, 196, 109);
+    padding: 20px;
+}
+header#Mega1{
+    background-color: rgb(150, 240, 235);
+    padding: 20px;
+}
+header#Resultados{
+    background-color: rgb(160, 148, 196);
+    padding: 20px;
+}
+h1,h2{
+    text-align: center;
+    color: black;	
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: center;
+    margin: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1#Primeira{
+    font-size: 60px;
+    margin-top: 15px;
+}
+select#Dhelmise{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+img#Dhelmise{
+    margin-left: 800px;
+}
+select#Eternatus{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+img#Eternatus{
+    margin-left: 800px;
+}
+select#Steven{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+img#Steven{
+    margin-left: 1000px;
+}
+select#Diantha{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+img#Diantha{
+    margin-left: 1000px;  
+}
+select#Palkia{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+img#Palkia{
+    margin-left: 800px;
+}
+img#TrioDoLago{
+    margin-left: 800px;
+}
+select#TrioDoLago{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+select#TeamGalatic{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+img#Cyrus{
+    margin-left: 1000px;
+    max-height: 500px;
+}
+select#LigaKalos{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;
+}
+img#Alain{
+    margin-left: 1000px;
+}
+select#Pseudo{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px;  
+}
+img#Haxorus{
+    margin-left: 800px;
+}
+select#Mega{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px; 
+}
+img#Keldeo{
+    margin-left: 800px;
+}
+button#verificarResultado{
+    font-size: 30px;
+    margin: 12px;
+    border-radius: 10px; 
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
