@@ -1,169 +1,121 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-input{
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+}
+
+header#Quiz {
     text-align: center;
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;
-}
-header#Quiz{
     background-color: #FDFF86;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
-header#Dhelmise1{
-    background-color: #98E7FF;
-    padding: 20px;
-}
-header#Eternatus1{
-    background-color: #FF8E85;
-    padding: 20px;
-}
-header#Steven1{
-    background-color: #D8B8C5;
-    padding: 20px; 
-}
-header#Diantha1{
-    background-color: rgb(252, 130, 179);
-    padding: 20px; 
-}
-header#Palkia1{
-    background-color: rgb(255, 142, 227);
-    padding: 20px; 
-}
-header#TrioDoLago1{
-    background-color: rgb(151, 231, 255);
-    padding: 20px;
-}
-header#TeamGalatic1{
-    background-color: rgb(194, 165, 165);
-    padding: 20px;
-}
-header#LigaKalos1{
-    background-color: rgb(109, 140, 196);
-    padding: 20px;
-}
-header#Pseudo1{
-    background-color: rgb(119, 196, 109);
-    padding: 20px;
-}
-header#Mega1{
-    background-color: rgb(150, 240, 235);
-    padding: 20px;
-}
-header#Resultados{
-    background-color: rgb(160, 148, 196);
-    padding: 20px;
-}
-h1,h2{
+
+h1, h2 {
     text-align: center;
-    color: black;	
+    color: black;
     font-family: 'Courier New', Courier, monospace;
 }
-h1{
-    font-size: 70px;
+
+h1 {
+    font-size: 60px;
+    margin-top: 15px;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 25px;
     margin-top: 15px;
     text-align: center;
     margin: 12px;
     font-family: 'Courier New', Courier, monospace;
 }
-h1#Primeira{
-    font-size: 60px;
-    margin-top: 15px;
-}
-select#Dhelmise{
+
+select.answer {
     font-size: 30px;
     margin: 12px;
     border-radius: 10px;
 }
-img#Dhelmise{
-    margin-left: 800px;
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-select#Eternatus{
+
+button#verificarResultado {
     font-size: 30px;
     margin: 12px;
     border-radius: 10px;
-}
-img#Eternatus{
-    margin-left: 800px;
-}
-select#Steven{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;
-}
-img#Steven{
-    margin-left: 1000px;
-}
-select#Diantha{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;
-}
-img#Diantha{
-    margin-left: 1000px;  
-}
-select#Palkia{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;
-}
-img#Palkia{
-    margin-left: 800px;
-}
-img#TrioDoLago{
-    margin-left: 800px;
-}
-select#TrioDoLago{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;
-}
-select#TeamGalatic{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;
-}
-img#Cyrus{
-    margin-left: 1000px;
-    max-height: 500px;
-}
-select#LigaKalos{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;
-}
-img#Alain{
-    margin-left: 1000px;
-}
-select#Pseudo{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px;  
-}
-img#Haxorus{
-    margin-left: 800px;
-}
-select#Mega{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px; 
-}
-img#Keldeo{
-    margin-left: 800px;
-}
-button#verificarResultado{
-    font-size: 30px;
-    margin: 12px;
-    border-radius: 10px; 
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.result-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos específicos para cada pergunta */
+header[id$="1"] {
+    background-color: #98E7FF;
+    padding: 20px;
+}
+
+header[id$="2"] {
+    background-color: #FF8E85;
+    padding: 20px;
+}
+
+header[id$="3"] {
+    background-color: #D8B8C5;
+    padding: 20px;
+}
+
+header[id$="4"] {
+    background-color: rgb(252, 130, 179);
+    padding: 20px;
+}
+
+header[id$="5"] {
+    background-color: rgb(255, 142, 227);
+    padding: 20px;
+}
+
+header[id$="6"] {
+    background-color: rgb(151, 231, 255);
+    padding: 20px;
+}
+
+header[id$="7"] {
+    background-color: rgb(194, 165, 165);
+    padding: 20px;
+}
+
+header[id$="8"] {
+    background-color: rgb(109, 140, 196);
+    padding: 20px;
+}
+
+header[id$="9"] {
+    background-color: rgb(119, 196, 109);
+    padding: 20px;
+}
+
+header[id$="10"] {
+    background-color: rgb(150, 240, 235);
+    padding: 20px;
 }
